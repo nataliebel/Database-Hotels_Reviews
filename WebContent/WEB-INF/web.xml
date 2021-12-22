@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+  version="2.5">
+  <display-name>hotelsRev</display-name>
+  <welcome-file-list>
+    <welcome-file>registration.jsp</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>welcome.jsp</welcome-file>
+    <welcome-file>topHotelsEurope.jsp</welcome-file>
+    <welcome-file>topHotelsCountry.jsp</welcome-file>
+    <welcome-file>addReview.jsp</welcome-file>
+    <welcome-file>reviewsByHotel.jsp</welcome-file>
+    <welcome-file>percentageOfCountries.jsp</welcome-file>
+    <welcome-file>hotelWithMaxComposition.jsp</welcome-file>
+    <welcome-file>userReviewsList.jsp</welcome-file>
+    <welcome-file>changePassword.jsp</welcome-file>
+    <welcome-file>passwordWasChanged.jsp</welcome-file>
+    <welcome-file>reviewWasAdded.jsp</welcome-file>
+  </welcome-file-list>
+  <session-config>
+    <session-timeout>1000</session-timeout>
+  </session-config>
+</web-app>
+
